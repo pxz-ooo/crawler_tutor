@@ -14,7 +14,7 @@ public class email_find {
 
         Class.forName("com.mysql.cj.jdbc.Driver");
         con = DriverManager.getConnection("jdbc:mysql:"
-                + "//118.195.184.200:3306/crawler", "crawler", "crawler@zstu");
+                + "//118.195.184.200:3306/crawler", "", "");
 
         return con;
     }
